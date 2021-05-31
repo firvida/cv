@@ -1,0 +1,230 @@
+# Page settings
+
+baseURL = "http://abel-firvida.ddns.net/"
+languageCode = "en"
+title = "Abel Alfonso Fírvida Donéstevez"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    primaryColor = "#cf222a"
+    textPrimaryColor = "#000000"
+    [params.profile]
+        enable = true
+        name = "Abel Alfonso Fírvida Donéstevez"
+        tagline = "Senior Software Engineer & Systems Administrator"
+        avatar = "avatar.png"
+
+
+    [params.contact]
+        enable = true
+        location = "Vilnius / Berlin / Havana"
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+53550702370"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "aafirvida@gmail.com"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/React/Vue/Node.js/OWL"
+        [[params.skills.list.items]]
+        details = "Python/C/C#/PHP/Java"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+        [[params.skills.list.items]]
+        details = "**Manage mail servers** iRedMail/Mailu/Zimbra"
+        [[params.skills.list.items]]
+        details = "**Manage servers** Docker/Portainer"
+        [[params.skills.list.items]]
+        details = "Kubernetes/LXC/Proxmox/KVM/AWS"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Information Sciences Engineer"
+        university = "University Informatic Sciences"
+        dates = "2004 - 2009"
+        
+
+    [params.awards]
+        enable = false
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Guitar playing"
+        [[params.interests.list]]
+        name = "Chess"
+        [[params.interests.list]]
+        name = "Old music"
+        [[params.interests.list]]
+        name = "Movies"
+        [[params.interests.list]]
+        name = "Gaming"
+
+
+    [params.summary]
+        enable = true
+        text = "I'm a father of two, husband and software engineer who has work with some of the best Cuban development teams since 2007. Yet another Cuban smilling through the hard times caused by COVID-19 and the world blockade against common people of my country."
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2016 - Present"
+        company = "Merchise Autrement"
+        details = "Since 2016 I have work with [Merchise Autrement](https://www.linkedin.com/company/merchise-autrement-./), one of the bests Cuban teams with strong focus in process management and quality ensurance, in which I have learned Odoo programming, SEO, frontend development and how to manage continuous integration using gitlab. Working with them I manage servers which have not lost a byte in 5 years and have never get offline. **Some servers I currently manage using Proxmox and Kubernetes:**"
+        [[params.experience.list.items]]
+        details = "[Cubania.com](http://cubania.com). This is a static site in which I have also develop the `HTML/CSS theme`, `Python backend` and the `SEO`."
+        [[params.experience.list.items]]
+        details = "[Cubaautrement](http://www.cubaautrement.com/). `SEO`."
+        [[params.experience.list.items]]
+        details = "[Mercurio](https://www.caraibesautrement.com). Here I have done also a big part of the `HTML/CSS theme` and `Python backend`."
+        [[params.experience.list.items]]
+        details = "[Merchise Autrement](https://www.merchise.org/)."
+        [[params.experience.list.items]]
+        details = "[Merchise mail server](https://mail.merchise.org/). Using iRedMail"
+        [[params.experience.list.items]]
+        details = "[Caraibesautrement mail server](https://mail.host-64l.lahavane.com/ui). Using Mailu"
+        
+
+        [[params.experience.list]]
+        title = "Freelancer"
+        dates = "2013 - 2014"
+        company = "Freelancer.com"
+        details = "I have worked as [Jhonsilver](https://www.freelancer.com/u/jhonsilver) on Freelancer.com with other three folks. Here we have earned 93 five stars reviews, not even one lesser. By the middle 2014 we have been rated among the top 5 Linux/Python freelancers in Latin America. **While being a freelancer I have developed:**"
+        [[params.experience.list.items]]
+        details = "Android applications"
+        [[params.experience.list.items]]
+        details = "Firefox customizations"
+        [[params.experience.list.items]]
+        details = "Linux distributions"
+        [[params.experience.list.items]]
+        details = "Python games"
+        [[params.experience.list.items]]
+        details = "Internet TV channels using ffmpeg"
+        [[params.experience.list.items]]
+        details = "Bitcoin farms"
+        [[params.experience.list.items]]
+        details = "And lots of shell scripts"
+        
+        
+        [[params.experience.list]]
+        title = "Lead Software Developer"
+        dates = "2008 - 2016"
+        company = "University of informatic Sciences [UCI]."
+        details = "While working in UCI first as student and later as teacher I have the oportunity to work within important gobernment projects. I can tell that I was once the team leader of Nova, the Cuban GNU/Linux distribution. Also I'm proud of my students who are carring the torch within Nova or have important parts in major developments like [AppImage](https://appimage.org) or [Apklis](https://www.apklis.cu). **While in UCI i have:**"
+        [[params.experience.list.items]]
+        details = "Deployed and managed restrictive proxy servers with 10 000 users behind (2015 - 2016)."
+        [[params.experience.list.items]]
+        details = "Managed LAMPP servers that hosted the informatic system for Cuban (2014) elections."
+        [[params.experience.list.items]]
+        details = "Managed multiple instances of a hospital system in PDVSA network in Venezuela (2013)."
+        [[params.experience.list.items]]
+        details = "Colaborated with international projects such as Android X86, Lemote, LXDE and Zentyal (2009 - 2012)."
+        [[params.experience.list.items]]
+        details = "Developed a light weight desktop environment called Guano. Which make me won all contests for an engineering student in Cuba (2008 - 2009)."
+        [[params.experience.list.items]]
+        details = "I have teach: C/C++/Python/Bash, Information Security and Ethics"
+        
+        
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "FirvidaOS"
+        meta = "Open Source"
+        tagline = "A continuation of Amaya (a LFS that I made while studying). This is a lightweight system just to fit my needs, based upon buildroot project and aming to have EXWM as desktop environment."
+
+        [[params.projects.list]]
+        title = "Mega DL"
+        meta = "Open Source"
+        tagline = "A script to download stuff from mega without beign authenticated."
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2014 · USB Device Management in GNU/Linux Systems"
+        [[params.information.list.items]]
+        details = "2014 - Cuban GNU/Linux Nova Distribution for Server Computers"
+        [[params.information.list.items]]
+        details = "2014 - Smart TV with Free Technologies in Support of Teaching-Learning Process"
+        [[params.information.list.items]]
+        details = "2014 - HERRAMIENTA PARA LA DETECCIÓN DE POSIBLES VULNERABILIDADES EN EL CÓDIGO FUENTE DEL REPOSITORIO DE GNU/LINUX NOVA"
+        [[params.information.list.items]]
+        details = "2012 - NOVA LIGERO, INCREMENTANDO LA SOCIO-ADAPTABILIDAD DE LA DISTRIBUCIÓN CUBANA DE GNU/LINUX"
+        [[params.information.list.items]]
+        details = "2011 - Nova 3.0, avances y expectativas de la distribución cubana de GNU/Linux"
+        
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/firvida"
+        title = "firvida"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/abel-alfonso-fírvida-donéstevez-240198110"
+        title = "aafirvida"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//www.freelancer.com/u/jhonsilver"
+        title = "jhonsilver"
+
+
+
+
+
