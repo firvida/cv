@@ -1,19 +1,38 @@
+<title>{{ .Site.Title }}</title>
 
-    <title>{{ .Site.Title }}</title>
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ .Site.Params.description }}">
+<meta name="keywords" content="{{ .Site.Params.profile.tagline }}">
+<meta name="author" content="{{ .Site.Params.author }}">
 
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ .Site.Params.description }}">
-    <meta name="author" content="{{ .Site.Params.author }}">
+<link rel="shortcut icon" href="/assets/images/avatar.png">
 
-    <link rel="shortcut icon" href="favicon.ico">
+<meta charset=UTF-8 />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="{{ .Site.Title }}" />
+<meta property="og:url" content="//abel-firvida.ddns.net" />
+<meta property="og:description"
+    content="{{ .Site.Params.description }}" />
+<meta name="og:description"
+    content="{{ .Site.Params.description }}" />
+<meta name="twitter:creator" content="@aafirvida" />
+<meta name="twitter:site" content="{{ .Site.Title }}" />
+<meta name="twitter:image" content="//abel-firvida.ddns.net/assets/images/avatar.png" />
+<meta name="twitter:card" content=summary />
+<meta name="twitter:title" content="{{ .Site.Params.profile.tagline }}">
+<meta name="twitter:description"
+    content="{{ .Site.Params.description }}">
 
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    <!-- Theme SCSS -->
-    {{ $style := resources.Get "scss/devresume.scss" | resources.ExecuteAsTemplate "scss/devresume.scss" . | toCSS (dict "targetPath" "assets/css/devresume.css") | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+<!-- Theme SCSS -->
+{{ $style := resources.Get "scss/devresume.scss" | resources.ExecuteAsTemplate "scss/devresume.scss" . | toCSS (dict
+"targetPath" "assets/css/devresume.css") | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">

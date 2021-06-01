@@ -4,11 +4,11 @@ baseURL = "https://abel-firvida.ddns.net/"
 languageCode = "en"
 title = "Abel Alfonso Fírvida Donéstevez"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-30301431-1"
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "firvida"
+    description = "Father of two, husband and software engineer who has work with some of the best Cuban developers since 2007."
     primaryColor = "#cf222a"
     textPrimaryColor = "#000000"
     [params.profile]
