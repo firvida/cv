@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://abel-firvida.ddns.net/"
+baseURL = "https://abel-firvida.ddns.net/"
 languageCode = "en"
 title = "Abel Alfonso Fírvida Donéstevez"
 theme = "hugo-devresume-theme"
@@ -120,9 +120,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         company = "Merchise Autrement"
         details = "Since 2016 I have work with [Merchise Autrement](https://www.linkedin.com/company/merchise-autrement-./), one of the bests Cuban teams with strong focus in process management and quality ensurance, in which I have learned Odoo programming, SEO, frontend development and how to manage continuous integration using gitlab. Working with them I manage servers which have not lost a byte in 5 years and have never get offline. **Some servers I currently manage using Proxmox and Kubernetes:**"
         [[params.experience.list.items]]
-        details = "[Cubania.com](http://cubania.com). This is a static site in which I have also develop the `HTML/CSS theme`, `Python backend` and the `SEO`."
+        details = "[Cubania.com](https://cubania.com). This is a static site in which I have also develop the `HTML/CSS theme`, `Python backend` and the `SEO`."
         [[params.experience.list.items]]
-        details = "[Cubaautrement](http://www.cubaautrement.com/). `SEO`."
+        details = "[Cubaautrement](https://www.cubaautrement.com/). `SEO`."
         [[params.experience.list.items]]
         details = "[Mercurio](https://www.caraibesautrement.com). Here I have done also a big part of the `HTML/CSS theme` and `Python backend`."
         [[params.experience.list.items]]
