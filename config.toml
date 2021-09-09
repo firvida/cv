@@ -74,7 +74,7 @@ googleAnalytics = "UA-30301431-1"
         degree = "Information Sciences Engineer"
         university = "University Informatic Sciences"
         dates = "2004 - 2009"
-        
+
 
     [params.awards]
         enable = false
@@ -108,9 +108,7 @@ googleAnalytics = "UA-30301431-1"
 
     [params.summary]
         enable = true
-        text = "I'm a father of two, husband and software engineer who has work with some of the best Cuban development teams since 2007. Yet another Cuban smilling through the hard times caused by COVID-19 and the world blockade against common people of my country."
-
-
+        text = "I'm a father of two, husband and software engineer who has work with some of the best Cuban development teams since 2007. "
     [params.experience]
         enable = true
 
@@ -131,7 +129,7 @@ googleAnalytics = "UA-30301431-1"
         details = "[Merchise mail server](https://mail.merchise.org/). Using iRedMail"
         [[params.experience.list.items]]
         details = "[Caraibesautrement mail server](https://mail.host-64l.lahavane.com/ui). Using Mailu"
-        
+
 
         [[params.experience.list]]
         title = "Freelancer"
@@ -152,8 +150,8 @@ googleAnalytics = "UA-30301431-1"
         details = "Bitcoin farms"
         [[params.experience.list.items]]
         details = "And lots of shell scripts"
-        
-        
+
+
         [[params.experience.list]]
         title = "Lead Software Developer"
         dates = "2008 - 2016"
@@ -171,8 +169,8 @@ googleAnalytics = "UA-30301431-1"
         details = "Developed a light weight desktop environment called Guano. Which make me won all contests for an engineering student in Cuba (2008 - 2009)."
         [[params.experience.list.items]]
         details = "I have teach: C/C++/Python/Bash, Information Security and Ethics"
-        
-        
+
+
     [params.projects]
         enable = true
 
@@ -204,7 +202,7 @@ googleAnalytics = "UA-30301431-1"
         details = "2012 - NOVA LIGERO, INCREMENTANDO LA SOCIO-ADAPTABILIDAD DE LA DISTRIBUCIÓN CUBANA DE GNU/LINUX"
         [[params.information.list.items]]
         details = "2011 - Nova 3.0, avances y expectativas de la distribución cubana de GNU/Linux"
-        
+
 
 
 
@@ -223,8 +221,3 @@ googleAnalytics = "UA-30301431-1"
         icon = "fab fa-twitter-square"
         url = "//www.freelancer.com/u/jhonsilver"
         title = "jhonsilver"
-
-
-
-
-
