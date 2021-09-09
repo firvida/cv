@@ -108,7 +108,7 @@ googleAnalytics = "UA-30301431-1"
 
     [params.summary]
         enable = true
-        text = "I'm a father of two, husband and software engineer who has work with some of the best Cuban development teams since 2007. "
+        text = "I'm a father of two, husband and software engineer who has work with some of the best Cuban software development teams since 2007. "
     [params.experience]
         enable = true
 
