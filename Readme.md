@@ -1,1 +1,1 @@
-Source for https://abel-firvida.ddns.net.
+Source for https://abel.firvida.org.

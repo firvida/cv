@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://abel-firvida.ddns.net/"
+baseURL = "https://abel.firvida.org/"
 languageCode = "en"
 title = "Abel Alfonso Fírvida Donéstevez"
 theme = "hugo-devresume-theme"
