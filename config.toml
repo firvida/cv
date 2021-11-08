@@ -8,7 +8,7 @@ googleAnalytics = "UA-30301431-1"
 
 [params]
     author = "firvida"
-    description = "Father of two, husband and software engineer who has work with some of the best Cuban developers since 2007."
+    description = "Father of two, husband and software engineer who has worked with some of the best Cuban developers since 2007."
     primaryColor = "#cf222a"
     textPrimaryColor = "#000000"
     [params.profile]
@@ -108,7 +108,7 @@ googleAnalytics = "UA-30301431-1"
 
     [params.summary]
         enable = true
-        text = "I'm a father of two, husband and software engineer who has work with some of the best Cuban software development teams since 2007. "
+        text = "I'm a father of two, husband and software engineer who has worked with some of the best Cuban software development teams since 2007. "
     [params.experience]
         enable = true
 
