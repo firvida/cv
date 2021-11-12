@@ -172,7 +172,7 @@ googleAnalytics = "UA-30301431-1"
 
 
     [params.projects]
-        enable = true
+        enable = false
 
         [[params.projects.list]]
         title = "FirvidaOS"
