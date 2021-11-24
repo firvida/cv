@@ -126,11 +126,11 @@ googleAnalytics = "UA-30301431-1"
 		[[params.experience.list.items]]
 		details = "[Mercocaribe](https://mercocaribe.com)"
 		[[params.experience.list.items]]
-		details = "[Tienda Algomasquearte](https://www.alcansan.nat.cu/algomasquearte/es/)"
-		[[params.experience.list.items]]
 		details = "[Augecrm](https://www.paginasauge.com/)"
 		[[params.experience.list.items]]
 		details = "[Pyxel Solutions](https://odoo.pyxelsolution.com/web/login)"
+		[[params.experience.list.items]]
+		details = "[Tienda Algomasquearte](https://www.alcansan.nat.cu/algomasquearte/es/)"
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
