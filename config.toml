@@ -112,6 +112,26 @@ googleAnalytics = "UA-30301431-1"
     [params.experience]
         enable = true
 
+		[[params.experience.list]]
+		title = "Freelance developer"
+		dates = "2021 - Present"
+		company = ""
+		details = "Since 2021 Im doing `Python programming tasks` for some enterprises like [Kaiko systems](https://www.kaikosystems.com/), a German enterprise which is building software for vessels' health management."
+		
+		[[params.experience.list]]
+		title = "Freelance sysadmin"
+		dates = "2021 - Present"
+		company = ""
+		details = "This year I started managing servers, doing security inspections and intervening for breakages and repairs on my own. Some of my first clients are:"
+		[[params.experience.list.items]]
+		details = "[Mercocaribe](https://mercocaribe.com)"
+		[[params.experience.list.items]]
+		details = "[Tienda Algomasquearte](https://www.alcansan.nat.cu/algomasquearte/es/)"
+		[[params.experience.list.items]]
+		details = "[Augecrm](https://www.paginasauge.com/)"
+		[[params.experience.list.items]]
+		details = "[Pyxel Solutions](https://odoo.pyxelsolution.com/web/login)"
+
         [[params.experience.list]]
         title = "Senior Software Engineer"
         dates = "2016 - Present"
@@ -122,7 +142,7 @@ googleAnalytics = "UA-30301431-1"
         [[params.experience.list.items]]
         details = "[Cubaautrement](https://www.cubaautrement.com/). `SEO`."
         [[params.experience.list.items]]
-        details = "[Mercurio](https://www.caraibesautrement.com). Here I have done also a big part of the `HTML/CSS theme` and `Python backend`."
+        details = "[Mercurio](https://www.caraibesautrement.com). Here I have work also in the `HTML/CSS theme` and in the `Odoo based backend`."
         [[params.experience.list.items]]
         details = "[Merchise Autrement](https://www.merchise.org/)."
         [[params.experience.list.items]]
@@ -202,8 +222,6 @@ googleAnalytics = "UA-30301431-1"
         details = "2012 - NOVA LIGERO, INCREMENTANDO LA SOCIO-ADAPTABILIDAD DE LA DISTRIBUCIÓN CUBANA DE GNU/LINUX"
         [[params.information.list.items]]
         details = "2011 - Nova 3.0, avances y expectativas de la distribución cubana de GNU/Linux"
-
-
 
 
     [params.social]
