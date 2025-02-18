@@ -95,7 +95,7 @@ googleAnalytics = "UA-30301431-1"
         enable = true
 
         [[params.interests.list]]
-        name = "Guitar playing"
+        name = "Guitar playing and building"
         [[params.interests.list]]
         name = "Chess"
         [[params.interests.list]]
@@ -117,7 +117,7 @@ googleAnalytics = "UA-30301431-1"
 		dates = "2021 - Present"
 		company = ""
 		details = "Since 2021 Im doing `Python programming tasks` for some enterprises like [Kaiko systems](https://www.kaikosystems.com/), a German enterprise which is building software for vessels' health management."
-		
+
 		[[params.experience.list]]
 		title = "Freelance sysadmin"
 		dates = "2021 - Present"
